@@ -44,7 +44,7 @@ export default  function Home(){
             <div className={'title text-justify py-10 font-bold items-center'}>
                 <h4 className="text-5xl font-bold text-center">Xiao & Wei</h4>
             </div>
-            <ImageGallery autoPlay={true} lazyLoad={true} useBrowserFullscreen={true} showPlayButton={false} items={images} ></ImageGallery>
+            <ImageGallery autoPlay={false} useBrowserFullscreen={true} showPlayButton={false} items={images} ></ImageGallery>
 
             <div className={'glass my-5 text-justify items-center'}>
                 <h3 className="text-4xl font-bold text-center">Routes we have been</h3>
